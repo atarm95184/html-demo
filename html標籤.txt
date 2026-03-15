@@ -1,0 +1,23 @@
+<h1~h6> 標題 
+
+<p> 段落
+
+<br> 換行
+	- 獨立符號 (範例:XXX<br>)
+
+<hr> 分割線
+	- 獨立符號
+
+<u>,<b> 底線,粗體
+
+<a> 起始
+	- <a target="_biank" href="連結">連結名稱</a> 超連結
+	-target="_biank" 另開新頁
+
+<img> 圖片
+	- <img alt="XXX" src="圖片連結"></img>
+	- alt="XXX" 圖片無法顯示時的「後備文字」
+
+<ul> 列表
+
+<table> 表格
