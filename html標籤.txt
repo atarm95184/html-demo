@@ -42,8 +42,8 @@
 <td> 表格放內容的地方 (儲存格)
 
 
-<video> (已有的影片檔案)
-	- <video controls width="600" height="300" sre="影片名稱"></video>
+<video> (已有的影片檔案,檔案要和專案同一個)
+	- <video controls width="600" height="300" src="影片名稱"></video>
 	- controls 控制影片
 
 
@@ -63,5 +63,5 @@
             <input placeholder="請輸入6~8不重複字元" type="password" id="password" name="password">
             <button type=""submit">註冊</button>
         </form>
-	- required 讓使用者無法填入表格
+	- required 強制使用者必須填寫該欄位，否則無法送出表單
 	- placeholder="請輸入6~8不重複字元" 提示使用者
