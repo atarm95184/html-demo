@@ -1,55 +1,55 @@
 ### <h1~h6> 標題 
 
- <p> 段落
+### `<p>` 段落
 
- <br> 換行
+### `<br>` 換行
 	- 獨立符號 (範例:XXX<br>)
 
-### <hr> 分割線
+### `<hr>` 分割線
 	- 獨立符號
 
-### <u>、<b>底線、粗體
+### `<u>、<b>` 底線、粗體
 
-### <s></s> 刪除線
+### `<s></s>` 刪除線
 
-### <mark></mark> 標記
+### `<mark></mark>` 標記
 
-### <a> 起始
+### `<a>` 起始
 	- <a target="_biank" href="連結">連結名稱</a> 超連結
 	- target="_biank" 另開新頁
 
-### <img> 圖片
-	- <img width="600px" alt="XXX" src="圖片連結"></img>
-	- alt="XXX" 圖片無法顯示時的「後備文字」(可有)
-	- width="600px" 定義圖片在網頁上顯示的寬度 (px固定大小，%跟隨視窗縮放)
+### `<img>` 圖片
+	-	<img width="600px" alt="XXX" src="圖片連結"></img>
+	-	alt="XXX" 圖片無法顯示時的「後備文字」(可有)
+	-	width="600px" 定義圖片在網頁上顯示的寬度 (px固定大小，%跟隨視窗縮放)
 
-### <ul> 列表
+### `<ul>` 列表
 
-### <ol> 列表-自帶數字標籤(預設標籤為數字)
+### `<ol>` 列表-自帶數字標籤(預設標籤為數字)
 	- <ol type="">  (設定標籤:a、i)
 
-### <table> 表格的容器 (外觀)
+### `<table>` 表格的容器 (外觀)
 	- <table border="1"> (讓表格的格線顯現出來)
 
-### <tbody> 表格的主體 (內容)
+### `<tbody>` 表格的主體 (內容)
 
-### <thead> 表格的頂部(用來放標題)
+### `<thead>` 表格的頂部(用來放標題)
 
-### <tr> 表格的一列 
+### `<tr>` 表格的一列 
 
-### <th> 放標題的內容
+### `<th>` 放標題的內容
  
-### <td> 表格放內容的地方 (儲存格)
+### `<td>` 表格放內容的地方 (儲存格)
 
 
-### <video> (已有的影片檔案,檔案要和專案同一個)
+### `<video>` (已有的影片檔案,檔案要和專案同一個)
 	- <video controls width="600" height="300" src="影片名稱"></video>
 	- controls 控制影片
 
 
 
- ### <form>
-	-<form action="">
+ ### `<form>`
+	- <form action="">
 		- <label for="username">使用者名稱:</label>
 		- <input required type="text" placeholder="輸入名字" id="username" name="username">
     	        - <button type=""submit">註冊</button>
@@ -59,7 +59,7 @@
 
 ### action="傳送位置" 內容傳送的指定位置 
 
-### <label> 文字標籤
+### `<label>` 文字標籤
 
 ### for 在loabel裡面負責連結id
 
@@ -81,7 +81,7 @@
 
 
 
-### <iframe>
+### `<iframe>`
 	- 內嵌框架(放入另一個網站的內容)
 	- <iframe src="要顯示的網址" width="600" height="400" title="這是一個述">
 	</iframe> (範例)
