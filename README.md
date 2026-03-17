@@ -1,12 +1,14 @@
+<!--  加入` `避免系統誤會為程式碼 -->
+
 ### <h1~h6> 標題 
 
 ### `<p>` 段落
 
 ### `<br>` 換行
-	- 獨立符號 (範例:XXX<br>)
+- 獨立符號 (範例:XXX<br>)
 
 ### `<hr>` 分割線
-	- 獨立符號
+- 獨立符號
 
 ### `<u>、<b>` 底線、粗體
 
@@ -15,21 +17,21 @@
 ### `<mark></mark>` 標記
 
 ### `<a>` 起始
-	- <a target="_biank" href="連結">連結名稱</a> 超連結
-	- target="_biank" 另開新頁
+- `<a target="_biank" href="連結">連結名稱</a> 超連結`
+- target="_biank" 另開新頁
 
 ### `<img>` 圖片
-	-	<img width="600px" alt="XXX" src="圖片連結"></img>
-	-	alt="XXX" 圖片無法顯示時的「後備文字」(可有)
-	-	width="600px" 定義圖片在網頁上顯示的寬度 (px固定大小，%跟隨視窗縮放)
+-	`<img width="600px" alt="XXX" src="圖片連結"></img>`
+-	alt="XXX" 圖片無法顯示時的「後備文字」(可有)
+-	width="600px" 定義圖片在網頁上顯示的寬度 (px固定大小，%跟隨視窗縮放)
 
 ### `<ul>` 列表
 
 ### `<ol>` 列表-自帶數字標籤(預設標籤為數字)
-	- <ol type="">  (設定標籤:a、i)
+- `<ol type=""> ` (設定標籤:a、i)
 
 ### `<table>` 表格的容器 (外觀)
-	- <table border="1"> (讓表格的格線顯現出來)
+- `<table border="1">` (讓表格的格線顯現出來)
 
 ### `<tbody>` 表格的主體 (內容)
 
@@ -43,8 +45,8 @@
 
 
 ### `<video>` (已有的影片檔案,檔案要和專案同一個)
-	- <video controls width="600" height="300" src="影片名稱"></video>
-	- controls 控制影片
+- `<video controls width="600" height="300" src="影片名稱"></video>`
+- controls 控制影片
 
 
 
@@ -54,8 +56,8 @@
 		- <input required type="text" placeholder="輸入名字" id="username" name="username">
     	        - <button type=""submit">註冊</button>
         - </form>
-	- required 強制使用者必須填寫該欄位，否則無法送出表單
-	- placeholder="輸入框提示內容" (提示使用者)
+- required 強制使用者必須填寫該欄位，否則無法送出表單
+- placeholder="輸入框提示內容" (提示使用者)
 
 ### action="傳送位置" 內容傳送的指定位置 
 
@@ -66,28 +68,28 @@
 ### min=""、max="" 在有數值屬性的input內設定最小最大值
 
 ### type="":屬性設定
-	- text：變成普通打字機。
-	- password：變成「隱藏模式」（打字變黑點）
-	- number：變成「數字專用機」（只能輸入數字）
-	- date：變成「日曆選擇器」
-	- url：網址
-	- range：滑桿
-	- color：顏色選擇器
-	- file：檔案上傳
-	- Checkbox：勾選框是複選 (可以複選)
-	- fadio：點擊選取 (只能選一個)
-	- submit：點下去後，傳送到 action 指定的地方
-	- reset：清除表單內文字
+- text：變成普通打字機。
+- password：變成「隱藏模式」（打字變黑點）
+- number：變成「數字專用機」（只能輸入數字）
+- date：變成「日曆選擇器」
+- url：網址
+- range：滑桿
+- color：顏色選擇器
+- file：檔案上傳
+- Checkbox：勾選框是複選 (可以複選)
+- fadio：點擊選取 (只能選一個)
+- submit：點下去後，傳送到 action 指定的地方
+- reset：清除表單內文字
 
 
 
 ### `<iframe>`
-	- 內嵌框架(放入另一個網站的內容)
-	- <iframe src="要顯示的網址" width="600" height="400" title="這是一個述">
+- 內嵌框架(放入另一個網站的內容)
+- `<iframe src="要顯示的網址" width="600" height="400" title="這是一個描述">`
 	</iframe> (範例)
-	- 放影片<iframe width="600" height="300" src="https://www.youtube.com/embed/影片ID" title="名稱"
-    	frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;web-share"referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-	- 影片ID YOUTUBE網址列中(?v=) 後面的字串就是影片ID，也可以直接複製嵌入碼
+- 放影片 '<iframe width="600" height="300" src="https://www.youtube.com/embed/影片ID" title="名稱"
+    	frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;web-share"referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+- 影片ID YOUTUBE網址列中(?v=) 後面的字串就是影片ID，也可以直接複製嵌入碼
 
 
 
