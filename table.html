@@ -4,17 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>匯率網站</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+         table{
+            width: 80%;
+            margin: 12px auto;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid orangered;
+        }
 
-<a href="index.html">
-    <img src="https://bpic.588ku.com/element_pic/23/04/23/d1ec0429501a2c3ff753fc36b1894249.png!/fw/350/quality/99/unsharp/true/compress/true
-">
-</a>
+        th{
+            color: rgb(185, 212, 30);
+            background-color: blanchedalmond;
+            border: 3px solid rgb(231, 142, 197);
+        }
+
+        tr:nth-child(even){
+            background-color: rgb(120, 199, 137);
+
+        }
+    </style>
 </head>
 <body>
-    <a href="index.html">首頁</a>
+    <a  style="font-size: 25px;" href="index.html">首頁</a>
     <h1>匯率查詢</h1>
     <a target="_biank" href="https://rate.bot.com.tw/xrt?Lang=zh-TW">即期匯率</a>
-    <table border="1">
+    <table>
         <thead>
             <tr>
                 <th>幣別</th>
@@ -49,10 +66,32 @@
                     <a target="_biank" href="https://rate.bot.com.tw/xrt/all/day">查詢</a>
                 </td>
             </tr>
+
+            <tr>
+                <td>美金 (USD)</td>
+                <td>31.515</td>
+                <td>32.185</td>
+                <td>31.84</td>
+                <td>31.99</td>
+                <td>
+                    <a target="_biank" href="https://rate.bot.com.tw/xrt/all/day">查詢</a>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>日圓 (JYP)</td>
+                <td>0.1907</td>
+                <td>0.2035</td>
+                <td>0.1975</td>
+                <td>0.2025</td>
+                <td>
+                    <a target="_biank" href="https://rate.bot.com.tw/xrt/all/day">查詢</a>
+                </td>
+            </tr>
     
         </tbody>
     </table>
-<h2>教學影片</h2>
+<h2 style="color: blueviolet;" >教學影片</h2>
 
 <p>
 <video controls width="600" height="300" src="demo.mp4"></video>
